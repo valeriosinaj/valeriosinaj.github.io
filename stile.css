@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  .container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -25%);
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    min-width: 97%;
+    max-width: 97%;
+    background-color: rgba(0, 0, 0, 0.411);
+    right: 10px;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      /* Questo sarà il tuo sfondo su dispositivi mobili */
+      background: url('bg.gif') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+   .video-background{
+        display: none;
+    }
+  }
+  
+  .srp{
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .srp{
+      font-size: 15px;
+    }
+  }
+  
+
+  ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    font-size: 14px;
+    text-shadow: 0.5px 0.5px 0 #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
+  }
+  
+  h2 {
+    font-weight: normal;
+    /* font-size: 15px; */
+    letter-spacing: .125rem;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+
+  .hero {
+    color: #fff;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    background-image: linear- gradient(rgba (0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 300;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.video-background {
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+hr{
+    width: 70%;
+    margin: 30px auto;
+    border: 0.5px solid #fff;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+span{
+    margin-bottom: 5px;
+}
+
+canvas {
+  position: fixed;
+	cursor: crosshair;
+	display: block;
+  z-index: 100;
+}
+
+.nascosto{
+  display: none;
+}
