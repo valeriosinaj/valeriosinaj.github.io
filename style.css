@@ -141,3 +141,14 @@ hr{
 span{
     margin-bottom: 5px;
 }
+
+canvas {
+  position: fixed;
+	cursor: crosshair;
+	display: block;
+  z-index: 100;
+}
+
+.nascosto{
+  display: none;
+}
