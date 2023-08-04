@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", _start);
 
 function _start()
 {
-    var countDownDate = new Date("August 4, 2023 18:40:00").getTime();
+    var countDownDate = new Date("August 12, 2023 14:00:00").getTime();
     Fireworks();
 
     var x = setInterval(() => {
